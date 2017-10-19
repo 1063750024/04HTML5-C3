@@ -71,9 +71,15 @@ HTML中引入CSS样式的3种方式：
 
  选择器：
   1.基本选择器
-      01.标签选择器
-      02.类选择器
-      03.id选择器
+      01.标签选择器  p{}   a{}  div{}
+      02.类选择器   .a 获取页面中class属性值是a的元素   可以有N个
+      <span class="a">第一个span标签</span>
+      <span class="a">第二个span标签 </span>
+      <span class="a">第三个span标签</span>
+      <div class="a">第1个div标签</span>
+      <div class="a">第2个div标签</span>
+      03.id选择器  #a  获取页面中id属性值是a的元素  只能有1个
+      <div  id="a"></div>
 
   2.高级选择器
       01.交集选择器
