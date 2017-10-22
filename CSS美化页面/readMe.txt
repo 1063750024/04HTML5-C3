@@ -35,6 +35,9 @@ css美化页面
    inline inline-block  block
 
 4.超链接伪类
+
+   结构伪类选择器：
+      div:nth-of-type()  :nth-child
    css伪类是一个特殊的类！ 它针对于我们设置的css选择器起作用！
 
    css伪类的语法：
@@ -54,7 +57,7 @@ css美化页面
       none    无符号
       disc    实心圆
       circle  空心圆
-      decimal 数字
+      decimal 数字  .....
   list-style-image  列表图片  url
   list-style-position 列表符号是否被li包含，默认是ul包含
   list-style        列表样式
@@ -84,8 +87,8 @@ background-size:contain;
 
 
 7.渐变属性
-  linear-gradient:
-   to top :方向
+  linear-gradient:(方向,color1,color2)
+                to top :方向
                 red:第1个颜色
                 black:第2个颜色
 IE浏览器是Trident内核，加前缀：-ms-
