@@ -48,3 +48,16 @@ css美化页面
 
  love  hate
  如果同时给一个选择器设置超链接伪类样式，那么顺序是必须不变的！
+
+5.列表样式
+  list-style-type   列表符号样式
+      none    无符号
+      disc    实心圆
+      circle  空心圆
+      decimal 数字
+  list-style-image  列表图片  url
+  list-style-position 列表符号位置
+  list-style        列表样式
+
+如果同时设置了type和image  那么image会覆盖type！和书写先后顺序没关系！
+
