@@ -56,8 +56,29 @@ css美化页面
       circle  空心圆
       decimal 数字
   list-style-image  列表图片  url
-  list-style-position 列表符号位置
+  list-style-position 列表符号是否被li包含，默认是ul包含
   list-style        列表样式
 
 如果同时设置了type和image  那么image会覆盖type！和书写先后顺序没关系！
+
+6.背景样式
+    background-color:背景色
+    background-image:背景图片
+    background-position:背景位置
+    background-repeat:背景重复方式
+        repeat:默认方式 水平和垂直都平铺
+        no-repeat:不平铺，只有一个图片
+        repeat-x:水平平铺
+        repeat-y:垂直平铺
+
+    background: 背景色 背景图片 背景位置  平铺方式
+    虽然没有固定顺序，但是我们有个默认的写法！
+
+如果我们相对背景图片的大小进行设置！那么请使用background-size
+background-size:contain;
+           background-size：背景图片的尺寸
+            auto:默认值，使用图片的大小
+            cover:让整个图片正好填充整个盒子
+            contain：让图片自动的方法或者缩小 适应盒子的大小
+            percentage：使用百分比  手动的校正图片在盒子中的大小
 
