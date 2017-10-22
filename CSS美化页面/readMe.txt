@@ -82,3 +82,14 @@ background-size:contain;
             contain：让图片自动的方法或者缩小 适应盒子的大小
             percentage：使用百分比  手动的校正图片在盒子中的大小
 
+
+7.渐变属性
+  linear-gradient:
+   to top :方向
+                red:第1个颜色
+                black:第2个颜色
+IE浏览器是Trident内核，加前缀：-ms-
+Chrome浏览器是Webkit内核，加前缀：-webkit-
+Safari浏览器是Webkit内核，加前缀：-webkit-
+Opera浏览器是Blink内核，加前缀：-o-
+Firefox浏览器是Mozilla内核，加前缀：-moz-
