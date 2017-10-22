@@ -12,12 +12,20 @@ css美化页面
     在一起设置属性的时候，四种属性顺序不能颠倒！
 
 2.文本样式
-       color:文本颜色 red  16进制颜色码
+       color:文本颜色 red  16进制颜色码  rgb   rgba
+             rgb(red,green,blue)正数取值 0-255
+             rgba(red,green,blue,alpha)
+             alpha的取值必须是0-1  0不显示  1正常显示
   text-align:文本元素的水平对齐方式
+            center  left  right  justify(两端对齐)
   line-height:文本的行高!
        如果想设置文本的垂直居中line-height的值必须等于height的值
   text-indent:设置首行缩进
                  p{
                   text-indent:2em; 设置p首行缩进2个字符
                    }
-  text-decoration:文本的装饰   underline
+  text-decoration:文本的装饰
+           none:默认值
+      underline:下划线
+       overline:上划线
+   line-through:删除线
