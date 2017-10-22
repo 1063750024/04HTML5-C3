@@ -12,18 +12,18 @@
     04.把内联元素3  变成块元素  并且设置  宽度 高度
     -->
     <style type="text/css">
-       div:nth-child(2),div:nth-child(3){
+       div:nth-of-type(2),div:nth-of-type(3){
            /* display: inline;  内联元素*/
-            display: inline-block; /* 行内块元素*/
+           display: inline-block; /*   行内块元素*/
            border: 1px solid red;
-           height: 500px;
-           width: 500px;
+           height: 50px;
+           width: 50px;
        }
-        span:nth-child(3){
+       span:nth-child(3){
             border: 1px solid red;
             display:block;/*块元素*/
-            height: 500px;
-            width: 500px;
+            height: 50px;
+            width: 50px;
         }
 
     </style>
