@@ -29,3 +29,22 @@ css美化页面
       underline:下划线
        overline:上划线
    line-through:删除线
+    text-shadow:文本阴影
+
+3.display  可以实现 块元素和行内元素的互换！
+   inline inline-block  block
+
+4.超链接伪类
+   css伪类是一个特殊的类！ 它针对于我们设置的css选择器起作用！
+
+   css伪类的语法：
+       选择器:伪类名｛
+                     属性:属性值;
+                     ｝
+  :link     ==> 还没有点击超链接的样式
+  :visited  ==> 点击之后超链接的样式
+  :hover    ==> 鼠标悬停在超链接的样式
+  :active   ==> 鼠标点击未释放超链接的样式
+
+ love  hate
+ 如果同时给一个选择器设置超链接伪类样式，那么顺序是必须不变的！
