@@ -28,7 +28,7 @@
              height: 50px;
              width: 50px;
          }
-         #box{
+         #box{  /*大盒子*/
              height: 300px;
              width: 300px;
              border: 2px solid red;
@@ -36,7 +36,7 @@
 
 
 
-       #box   div:nth-of-type(1){
+       #box  div:nth-of-type(1){
             background: red;
            /*绝对定位*/
            position: absolute;
@@ -58,7 +58,7 @@
 
 
         #box  div:nth-of-type(4){
-            background: greenyellow;
+            background: red;
             /*固定定位*/
             position: fixed;
             left: 30px;
@@ -67,10 +67,10 @@
 
         #box  div:nth-of-type(5){  /*如果两个盒子设置的定位属性相同，默认按照html结构元素顺序 后面会覆盖前面*/
             background: greenyellow;
-            /*固定定位*/
+            /*固定定位
             position: fixed;
             left: 30px;
-            top: 30px;
+            top: 30px;*/
         }
 
         /*层级关系
