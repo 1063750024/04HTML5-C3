@@ -29,3 +29,28 @@ clear  清除浮动
   left  在左侧不允许浮动
   right 在右侧不允许浮动
   both  左右侧都不允许浮动
+
+
+
+防止父级边框塌陷的方式：
+01.给父级盒子设置宽高！
+02.在父级盒子的最后一个位置增加div没有内容
+<div  class="clear"></div>
+ 给这个div增加样式
+     .clear{
+               border: 1px solid black;
+               clear: both;
+           }
+03.在父盒子中设置溢出处理
+ overflow: hidden;
+04.最终使用的方式  :after伪类
+   在父盒子中增加一个class="clear"
+   .clear:after{
+              display: block;/*在#main div的左后一个位置增加一个块元素*/
+              content: '';   /*块元素的内容什么都没有*/
+              clear: both;  /*清除浮动*/
+          }
+
+
+
+
