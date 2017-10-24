@@ -8,23 +8,21 @@
             height: 300px;
             width: 300px;
             border: 1px solid red;
-            /*针对于浮动之后  内容溢出的处理
-             overflow:
-             01.visible:默认显示
-             02.scroll：以滚动条的形式显示溢出部分
-             03.hidden：溢出部分隐藏
-             04.auto：自动调整
-            */
-            overflow: scroll;
         }
 
         #a,#b,#c{ /*三个小盒子*/
-            height: 150px;
-            width: 110px;
+            height: 50px;
+            width: 70px;
             border: 1px solid red;
             margin: 2px;
-            /*浮动之后 会脱离 标准文档流*/
-            float: right;
+            float: left;
+        }/*第三个盒子清除左浮动
+        #c{
+            clear: left;
+        }*/
+        /*清除第二盒子的左浮动*/
+        #b{
+            clear: left;
         }
 
     </style>
