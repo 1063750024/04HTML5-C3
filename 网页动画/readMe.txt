@@ -18,3 +18,21 @@ css变形：transform
  如果说我们想给一个元素同时设置多个 变形属性！
    transform： 倾斜  缩放  旋转  ；
     多个属性之间使用空格隔开！
+
+
+我们上面的变形属性都是一瞬间就完成了！没有看到中间过程！
+
+如果想看到！使用css过渡属性  transition==>是一个动画的转换过程！
+
+css过渡属性：
+transition:property  duration  timing-function  delay
+
+property:过渡或者动画的css属性,例如color,width,如果想都设置使用all
+duration:完成过渡效果需要的时间 s为单位
+timing-function: 过渡函数
+   ease：默认值  速度由快到慢
+   linear：匀速
+   ease-in:越来越快
+   ease-out:越来越慢
+   ease-in-out:先加速后减速
+delay：过渡开始的延迟时间  s为单位
