@@ -36,3 +36,23 @@ timing-function: 过渡函数
    ease-out:越来越慢
    ease-in-out:先加速后减速
 delay：过渡开始的延迟时间  s为单位
+
+
+CSS动画
+
+01.创建关键帧
+@keyframes  名称(animates){
+    0%{
+      css属性：属性值；
+    }
+    50%{
+      css属性：属性值；
+    }
+    100%{
+      css属性：属性值；
+    }
+}
+02.怎么调用关键帧
+animation：关键帧的名称  3s linear 1s;
+
+
